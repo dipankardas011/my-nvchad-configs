@@ -64,4 +64,16 @@ lspconfig.sumneko_lua.setup {
   },
 }
 
+lspconfig.gopls.setup{}
+lspconfig.golangci_lint_ls.setup{}
+lspconfig.yamlls.setup{}
+lspconfig.terraform_lsp.setup{}
+lspconfig.cmake.setup{}
+lspconfig.jsonls.setup{}
+lspconfig.pylsp.setup{}
+lspconfig.html.setup{}
+lspconfig.bashls.setup{}
+lspconfig.markdownlint.setup{}
+
+
 return M

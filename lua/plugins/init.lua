@@ -4,6 +4,21 @@ local plugins = {
 
   ["lewis6991/impatient.nvim"] = {},
 
+  ["fatih/vim-go"] = {},
+
+  ["npxbr/glow.nvim"] = {
+    ft = {"markdown"}
+  },
+
+  ["folke/tokyonight.nvim"] = {},
+
+  ["folke/todo-comments.nvim"] = {
+    event = "BufRead",
+    config = function()
+      require("todo-comments").setup()
+    end,
+  },
+
   ["wbthomason/packer.nvim"] = {
     cmd = require("core.lazy_load").packer_cmds,
     config = function()

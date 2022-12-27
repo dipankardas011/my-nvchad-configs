@@ -14,9 +14,10 @@ M.ui = {
   hl_add = {},
   hl_override = {},
   changed_themes = {},
-  theme_toggle = { "onedark", "one_light" },
+  theme_toggle = { "onedark", "one_light", "tokyonight" },
   theme = "onedark", -- default theme
-  transparency = false,
+  --theme = "tokyonight", -- default theme
+  transparency = true,
 }
 
 M.plugins = {}
