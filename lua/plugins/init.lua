@@ -2,6 +2,10 @@ local plugins = {
 
   ["nvim-lua/plenary.nvim"] = { module = "plenary" },
 
+  ["hashivim/vim-terraform"] = {},
+
+  ["juliosueiras/vim-terraform-completion"] = {},
+
   ["lewis6991/impatient.nvim"] = {},
 
   ["fatih/vim-go"] = {},
